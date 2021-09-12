@@ -1,0 +1,29 @@
+###
+GET http://localhost:4000/api/employees
+
+
+###
+POST http://localhost:4000//notes/add
+
+
+
+###
+GET http://localhost:4000/api/employees/5f745f39512826158c2eea64
+
+
+
+###
+DELETE http://localhost:4000/api/employees/5f746262512826158c2eea65
+
+
+###
+PUT http://localhost:4000/api/employees/5f745f39512826158c2eea64
+Content-Type: application/json
+
+{
+    "salary": 1000000
+}
+
+
+###
+POST http://localhost:4000//notes/add
